@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../images/nack-pic.png');
+    font-family: 'Raleway', sans-serif;
+}
+
+/*the content box*/
+
+.content {
+   width: 80%;
+   margin: 8% 10%;
+}
+
+.left,.right {
+    width: 50%;
+    float: left;
+    height: 450px;
+}
+
+.left img {
+    width: 100%;
+    height:100%;
+}
+
+.right {
+    padding: 40px;
+    background-color: #fff;
+    color: #505152;
+    text-transform: capitalize;
+}
+
+.right h3 {
+    padding:10px 0 4px 0;
+    font-size: 30px;
+}
+
+.right h3 span {
+    color: red;
+}
+
+.right form {
+margin-top: 40px;
+}
+
+.right form input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    border: 0;
+    outline: 0;
+    box-shadow: -1px 10px 50px .2px #888888;
+}
+
+.right form input:focus {
+    border-left: 6px solid red;
+}
+
+.right form .remember{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.right form .remember input {
+    width: 15px;
+    height: 15px;
+    box-shadow:none;
+    border:2px solid #eee
+}
+
+.remember a{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    color:#6FA1EE;
+}
+
+/*sign in button*/
+.right button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    background-color: red;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 5px
+}
