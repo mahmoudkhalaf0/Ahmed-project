@@ -6,7 +6,10 @@
 
 body {
     background-image: url('../images/nack-pic.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Raleway', sans-serif;
+    height: 680px;;
 }
 
 /*the content box*/
@@ -19,7 +22,7 @@ body {
 .left,.right {
     width: 50%;
     float: left;
-    height: 450px;
+    height: 589px;
 }
 
 .left img {
@@ -29,6 +32,7 @@ body {
 
 .right {
     padding: 40px;
+    padding-top: 90px;
     background-color: #fff;
     color: #505152;
     text-transform: capitalize;
@@ -44,12 +48,12 @@ body {
 }
 
 .right form {
-margin-top: 40px;
+margin-top: 60px;
 }
 
 .right form input {
     width: 100%;
-    height: 40px;
+    height: 50px;
     padding: 5px;
     margin-bottom: 10px;
     text-transform: capitalize;
